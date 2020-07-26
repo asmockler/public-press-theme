@@ -1,0 +1,1 @@
+{"version":3,"file":"application.js","sources":["../src/index.js"],"sourcesContent":["import './normalize.scss';\nimport './index.scss';\n\nconsole.log('neat!!')\n"],"names":["console","log"],"mappings":"6EAGAA,QAAQC,IAAI"}

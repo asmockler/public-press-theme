@@ -1,0 +1,29 @@
+{
+  "name": "public-press-theme",
+  "version": "0.1.0",
+  "author": "Andy Mockler <asmockler@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.js",
+  "main": "assets/application.js",
+  "umd:main": "assets/application.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node scripts/build"
+  },
+  "devDependencies": {
+    "chokidar": "^3.4.1",
+    "concurrently": "^5.2.0",
+    "import-jsx": "^4.0.0",
+    "ink": "3.0.0-7",
+    "ink-big-text": "^1.2.0",
+    "ink-gradient": "^1.0.0",
+    "ink-spinner": "4.0.0-0",
+    "lodash.debounce": "^4.0.8",
+    "microbundle": "^0.12.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1"
+  },
+  "dependencies": {}
+}
