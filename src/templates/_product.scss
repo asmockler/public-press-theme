@@ -10,6 +10,11 @@
   top: 0;
 }
 
+.product-hero__image {
+  border-right: 1px solid black;
+  max-width: 100%;
+}
+
 .product-hero__title {
   font-family: "DM Serif Display", serif;
   font-size: 55px;
@@ -42,7 +47,7 @@
 }
 
 .product-materials__container {
-  background: #EEF6F3;
+  background: #eef6f3;
   display: flex;
   justify-content: center;
   padding: 150px;
