@@ -1,0 +1,57 @@
+.product-hero__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product-hero__content {
+  max-width: 600px;
+  padding: 48px;
+  position: sticky;
+  top: 0;
+}
+
+.product-hero__title {
+  font-family: "DM Serif Display", serif;
+  font-size: 55px;
+  font-weight: 500;
+  margin: 0 0 24px;
+}
+
+.product-hero__price {
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.product-hero__description {
+  line-height: 1.6;
+  margin: 48px 0;
+}
+
+.product-hero__button {
+  background: #204737;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.product-materials__container {
+  background: #EEF6F3;
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
+
+.product-materials__content {
+  font-family: "DM Serif Display", serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 960px;
+}
