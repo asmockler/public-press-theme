@@ -19,6 +19,7 @@ function useMicrobundle() {
         const { output } = await microbundle({
           cwd: ".",
           formats: "umd",
+          'css-modules': false,
         });
         setBuildStatus({loading: false, success: true});
 
