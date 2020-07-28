@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <a href="/">
+    <img
+      alt="Public Press"
+      class="navbar__logo"
+      src="{{ 'logo_black.png' | asset_img_url: '500x' }}"
+    />
+  </a>
+
+  <ul class="navbar__links-container">
+    {% for link in linklists.main-menu.links %}
+      <li class="navbar__link-item">
+        <a
+          href="{{ link.url }}"
+          class="navbar__link"
+        >
+          {{ link.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
