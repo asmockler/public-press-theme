@@ -1,11 +1,12 @@
 .navbar {
   align-items: center;
+  border-bottom: 1px solid black;
   display: flex;
   padding: 16px;
 }
 
 .navbar__logo {
-  width: 175px;
+  width: 150px;
 }
 
 .navbar__links-container {
