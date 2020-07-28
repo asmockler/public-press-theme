@@ -18,6 +18,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 
     {{ content_for_header }}
     {{ "application.css" | asset_url | stylesheet_tag }}
@@ -25,8 +26,6 @@
   </head>
 
   <body>
-    {% include 'navbar' %}
-
     <a href="/cart">cart</a>
 
     {% if shop.customer_accounts_enabled %}
@@ -38,6 +37,8 @@
         {{ "register" | customer_register_link }}
       {% endif %}
     {% endif %}
+
+    {% include 'navbar' %}
 
     <main role="main">
       {{ content_for_layout }}
