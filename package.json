@@ -18,7 +18,7 @@
     "import-jsx": "^4.0.0",
     "ink": "3.0.0-7",
     "ink-big-text": "^1.2.0",
-    "ink-gradient": "^1.0.0",
+    "ink-gradient": "^2.0.0",
     "ink-spinner": "4.0.0-0",
     "lodash.debounce": "^4.0.8",
     "microbundle": "^0.12.3",

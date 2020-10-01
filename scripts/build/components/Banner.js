@@ -1,6 +1,6 @@
 const React = require("react");
 const { Box, Text } = require("ink");
-const Gradient = require("../../forked-ink-pkgs/ink-gradient");
+const Gradient = require("ink-gradient");
 const BigText = require("ink-big-text");
 
 function Banner() {

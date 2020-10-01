@@ -2381,13 +2381,14 @@ ink-big-text@^1.2.0:
     cfonts "^2.8.6"
     prop-types "^15.7.2"
 
-ink-gradient@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ink-gradient/-/ink-gradient-1.0.0.tgz#b3d3bc95dce44f7ef0e230ad053af9bc161da2a5"
-  integrity sha512-lK7LsvRwFv9MuWyOT9zOiaJdVtZXyMjt3UoZDUxIVTHamrPE3e8HGfnV2P3h8as7AfsGnzIeWWonhLLlrtu3ew==
+ink-gradient@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ink-gradient/-/ink-gradient-2.0.0.tgz#2e2b040ab41f96f61b397d87cd56fd6ce9ef59cc"
+  integrity sha512-d2BK/EzzBRoDL54NWkS3JGE4J8xtzwRVWxDAIkQ/eQ60XIzrFMtT5JlUqgV05Qlt32Jvk50qW51YqxGJggTuqA==
   dependencies:
     gradient-string "^1.2.0"
     prop-types "^15.7.2"
+    strip-ansi "^6.0.0"
 
 ink-spinner@4.0.0-0:
   version "4.0.0-0"
@@ -4541,9 +4542,9 @@ tiny-glob@^0.2.6:
     globrex "^0.1.1"
 
 tinycolor2@^1.0.0:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
-  integrity sha1-9PrTM0R7wLB9TcjpIJ2POaisd+g=
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
+  integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
 
 tinygradient@^0.4.1:
   version "0.4.3"
